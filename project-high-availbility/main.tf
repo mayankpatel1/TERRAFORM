@@ -11,7 +11,7 @@ module "vpc" {
   }
   
   module "vpc_1" {
-    source = "MODULE/vpc/"
+    source = "../../MODULE/vpc"
   
     name = "my-vpc"
     cidr = "10.0.0.0/16"
